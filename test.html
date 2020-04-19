@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Practice LWHH 14/04/2020</title>
+</head>
+<body>
+
+	<h2>JavaScript Practice LWHH</h2>	
+		<h3>Cost of Egg Calculator</h3>
+		var eggPrice = 5;<br>
+		var numOfEggs = 100;<br>
+		var totalCostOfEggs = eggPrice * numOfEggs;<br>
+		console.log("Total Cost of Egg ", totalCostOfEggs, "Taka.");<br>
+
+		<h3>Area of Circle Calculator = pi * r squared</h3>
+		const pi = 3.14159;<br>
+		var radius = 7;<br>
+		var areaOfCircle = pi * (radius * radius);<br>
+		console.log("Area of the Circle is ", areaOfCircle, "Sq Inch");<br>
+
+		<h3>USD to BDT Calculator</h3>
+		var usdToBdt = 83.5;<br>
+		var bdt = 5000;<br>
+		var usd = bdt / usdToBdt;<br>
+		console.log("$",usd);<br>
+
+		<h3>Operator + - * / %</h3>
+		var n1 = 5;<br>
+		var r1 = 5 % 2;<br>
+		console.log(r1);<br>
+
+		<h3>Class 3.5</h3>
+		var x = 4;<br>
+		x++; //x = x+1<br>
+		console.log(x);<br>
+		var y = 4;<br>
+		y--; //x = y-1<br>
+		console.log(y);<br>
+
+		<h3>Class 4</h3>
+		var n = 11;<br>
+		if(n<10){<br>
+			console.log(n);<br>
+			console.log("This number",n, "is less than 10");<br>
+		} else {<br>
+			console.log("This number",n,"is greater than 10");<br>
+		}<br>		
+
+		<h3>Class 5</h3>
+		var i = 20;<br>
+		while(i-->0){<br>
+			console.log(i);<br>
+		}<br>
+
+
+	<script type="text/javascript">
+		//Cost of Egg Calculator
+		var eggPrice = 5;
+		var numOfEggs = 100;
+		var totalCostOfEggs = eggPrice * numOfEggs;
+		console.log("Total Cost of Egg ", totalCostOfEggs, "Taka.");
+
+		//Area of Circle Calculator = pi * r squared
+		const pi = 3.14159;
+		var radius = 7;
+		var areaOfCircle = pi * (radius * radius);
+		console.log("Area of the Circle is ", areaOfCircle, "Sq Inch");
+
+		//USD to BDT Calculator
+		var usdToBdt = 83.5;
+		var bdt = 5000;
+		var usd = bdt / usdToBdt;
+		console.log("$",usd);
+
+		//Operator + - * / %
+		var n1 = 5;
+		var r1 = 5 % 2;
+		console.log(r1);
+
+		//Class 3.5
+		var x = 4;
+		x++; //x = x+1
+		console.log(x);
+		var y = 4;
+		y--; //x = y-1
+		console.log(y);
+
+		//Class 4
+		var n = 11;
+		if(n<10){
+			console.log(n);
+			console.log("This number",n, "is less than 10");
+		} else {
+			console.log("This number",n,"is greater than 10");
+		}
+
+		//Class 5
+		var i = 10;
+		while(i-->0){
+			console.log(i);
+		}
+
+		var i = 0;
+		while(i < 10) {
+			i++;
+			console.log("i is",i);
+		}
+
+		var i = 0;
+		while(i <= 10) {
+			if(i % 2 == 0) {
+				console.log("i%2",i);
+			}
+			i++;
+		}
+
+		// OR
+
+		var i = 0;
+		while(i <= 10){
+			console.log(i);
+			i += 2;
+		}
+
+		var i = 0;
+		while(true){
+			console.log(i);
+			if(5 == i) {
+				break;
+			}
+			i++;
+		}
+
+		//Class 5.2
+		var i = 0;
+
+		while(i++ <5) {
+			console.log("\n");
+			console.log("Class 5.2 i++",i);
+		}
+
+		i = 0;
+		console.log("\n reset \n");
+
+		while(++i <5) {
+			console.log("Class 5.2 ++i",i);
+		}
+
+		//Class 5.3
+		var i = 0;
+		console.log("\n");
+		do{
+			console.log("class 5.3 i++",i);
+			i++;
+		}
+		while(i < 5);
+		
+		
+		i = 0;
+		console.log("\n reset \n");
+		do{
+			i++;
+			console.log("class 5.3 i++ before line",i);			
+		}
+		while(i < 5);
+	</script>
+</body>
+</html>
